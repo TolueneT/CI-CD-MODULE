@@ -1,11 +1,16 @@
 {
-	"name": "ci-cd-project",
+	"name": "CI-CD-project-repo",
 	"version": "1.0.0",
-	"description": "",
+	"description": "A simple Node.js app",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"start": "node index.js",
+		"test": "echo \"No tests defined\"",
+		"lint": "eslint ."
 	},
 	"author": "",
-	"license": "ISC"
+	"license": "ISC",
+	"devDependencies": {
+		"eslint": "^9.10.0"
+	}
 }
